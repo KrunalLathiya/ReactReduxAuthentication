@@ -1,0 +1,12 @@
+{
+  "name": "reactreduxauthentication",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "install": "cd backend; npm i; cd ..; cd frontend; npm i",
+    "dev": "concurrently \"cd backend; npm start;\" \"cd frontend; npm start;\""
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
